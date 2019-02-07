@@ -15,7 +15,7 @@ const { SubMenu } = Menu;
 
 class App extends Component {
   state = {
-    collapsed: false,
+    collapsed: false
   };
 
   toggle = () => {
