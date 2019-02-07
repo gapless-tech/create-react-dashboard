@@ -8,6 +8,7 @@ import {
   Avatar,
   Dropdown,
 } from 'antd';
+import Pie from './components/graphs/ResponsivePie'
 
 const { Footer, Header, Content, Sider } = Layout
 const { SubMenu } = Menu;
@@ -41,10 +42,9 @@ class App extends Component {
     return (
       <Layout style={{ minHeight: '100vh' }}>
         <Sider
+          trigger={null}
           collapsible
-          collapsed={this.state.collapsed}
-          onCollapse={this.toggle}
-        >
+          collapsed={this.state.collapsed}>
           <div className="logo" />
           <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline">
             <Menu.Item key="1">
@@ -78,24 +78,31 @@ class App extends Component {
         </Sider>
         <Layout>
           <Header style={{ background: '#fff', padding: 0 }}>
-          <Dropdown overlay={avatarMenu} trigger={['click']}>
-            <Avatar
-              size={50}
-              className="avatar"
-              src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-          </Dropdown>
+            <Icon
+              className="trigger"
+              type={this.state.collapsed ? 'menu-unfold' : 'menu-fold'}
+              onClick={this.toggle}
+            />
+            <Dropdown overlay={avatarMenu} trigger={['click']}>
+              <Avatar
+                size="large"
+                shape="square"
+                className="avatar"
+                icon="user"
+              />
+            </Dropdown>
           </Header>
           <Content style={{ margin: '0 16px' }}>
             <Breadcrumb style={{ margin: '16px 0' }}>
-              <Breadcrumb.Item>User</Breadcrumb.Item>
-              <Breadcrumb.Item>Bill</Breadcrumb.Item>
+              <Breadcrumb.Item>Graphs</Breadcrumb.Item>
+              <Breadcrumb.Item>Pie</Breadcrumb.Item>
             </Breadcrumb>
-            <div style={{ padding: 24, background: '#fff', minHeight: 360 }}>
-              Bill is a cat.
+            <div style={{ padding: 24, background: '#fff', height: 750}}>
+              <Pie/>
             </div>
           </Content>
           <Footer style={{ textAlign: 'center' }}>
-            Ant Design ©2018 Created by Ant UED
+            Ant Design ©2018 Gapless-Tech
           </Footer>
         </Layout>
       </Layout>

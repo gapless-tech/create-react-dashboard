@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@nivo/pie": "^0.52.1",
     "antd": "^3.13.1",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.11",
