@@ -14,6 +14,7 @@ const Sider = ({ isCollapsed, mainMenuRoutes, currentPath }) => {
 
     return (
         <AntSider
+            trigger={null}
             collapsible
             collapsed={isCollapsed}>
             <div className="logo" />

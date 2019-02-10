@@ -7,7 +7,7 @@ import { ResponsivePie } from '@nivo/pie';
 export default class Pie extends React.Component {
   render() {
     return (
-    <div style={{ height: 750 }}>
+    <div style={{ height: 500 }}>
         <ResponsivePie
             data={data}
             margin={{

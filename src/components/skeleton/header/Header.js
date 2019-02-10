@@ -27,10 +27,10 @@ const Header = ({ isSiderCollapsed, onToggleSider }) => (
         />
         <Dropdown overlay={avatarMenu} trigger={['click']}>
             <Avatar
-            size="large"
-            shape="square"
-            className="avatar"
-            icon="user"
+              size="large"
+              shape="square"
+              className="avatar"
+              icon="user"
             />
         </Dropdown>
     </AntHeader>
