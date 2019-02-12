@@ -2,7 +2,6 @@ import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import * as menuTypes from './menuTypes';
 import { Home } from '../pages';
 
-
 const publicRoutes = [
   {
     name: 'home',
