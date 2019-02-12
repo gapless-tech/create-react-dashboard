@@ -1,5 +1,7 @@
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import * as menuTypes from './menuTypes';
+import { Home } from '../pages';
+
 
 const publicRoutes = [
   {
@@ -7,7 +9,7 @@ const publicRoutes = [
     title: 'Home',
     icon: 'home',
     path: '/',
-    component: () => 'Home Content',
+    component: Home,
     showInMenus: [menuTypes.main],
   },
 ];
