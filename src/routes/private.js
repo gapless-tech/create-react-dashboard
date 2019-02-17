@@ -1,6 +1,6 @@
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import Pie from '../components/graphs/ResponsivePie';
-import { UserProfile, UserSettings } from '../pages';
+import { UserProfile, UserSettings, Tables } from '../pages';
 import * as menuTypes from './menuTypes';
 import { renderRoutes } from 'react-router-config';
 
@@ -44,6 +44,23 @@ const protectedRoutes = [
         path: '/pie',
         showInMenus: [menuTypes.main],
         component: Pie,
+      },
+    ]
+  },
+  {
+    title: 'UI Kit',
+    name: 'UI kit',
+    path: '/ui-kit',
+    icon: 'code',
+    showInMenus: [menuTypes.main],
+    component: ({ route: { routes } }) => renderRoutes(routes, { routes }),
+    routes: [
+      {
+        title: 'Tables',
+        name: 'tables',
+        path: '/tables',
+        showInMenus: [menuTypes.main],
+        component: Tables,
       },
     ]
   },
