@@ -1,6 +1,6 @@
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import { UserProfile, UserSettings, Bars } from '../pages';
-import Pie from '../components/graphs/Pie';
+import { Pies, Bars } from '../pages/index';
 import * as menuTypes from './menuTypes';
 import { renderRoutes } from 'react-router-config';
 
@@ -43,7 +43,7 @@ const protectedRoutes = [
         name: 'pie-chart',
         path: '/pie',
         showInMenus: [menuTypes.main],
-        component: Pie,
+        component: Pies,
       },
       {
         title: 'Bar Chart',
