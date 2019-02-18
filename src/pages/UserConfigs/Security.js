@@ -11,7 +11,7 @@ class Security extends Component {
         </Fragment>
       ),
       actions: [
-        <a>Modify</a>,
+        <span>Modify</span>,
       ],
     },
     {
@@ -22,7 +22,7 @@ class Security extends Component {
         </span>
       ),
       actions: [
-        <a>Modify</a>,
+        <span>Modify</span>,
       ],
     },
     {
@@ -33,7 +33,7 @@ class Security extends Component {
         </span>
       ),
       actions: [
-        <a>Modify</a>,
+        <span>Modify</span>,
       ],
     },
   ];
