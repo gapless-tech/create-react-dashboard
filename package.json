@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "@nivo/bar": "^0.52.1",
+    "@nivo/line": "^0.52.1",
     "@nivo/pie": "^0.52.1",
     "@render-props/toggle": "^0.1.29",
     "antd": "^3.13.1",
