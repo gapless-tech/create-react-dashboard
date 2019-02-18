@@ -1,6 +1,6 @@
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import Pie from '../components/graphs/ResponsivePie';
-import { UserProfile, UserSettings, Tables } from '../pages';
+import { UserProfile, UserSettings, Tables, Form } from '../pages';
 import * as menuTypes from './menuTypes';
 import { renderRoutes } from 'react-router-config';
 
@@ -61,6 +61,13 @@ const protectedRoutes = [
         path: '/tables',
         showInMenus: [menuTypes.main],
         component: Tables,
+      },
+      {
+        title: 'Form',
+        name: 'form',
+        path: '/form',
+        showInMenus: [menuTypes.main],
+        component: Form,
       },
     ]
   },
