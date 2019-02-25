@@ -1,6 +1,5 @@
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
-import Pie from '../components/graphs/ResponsivePie';
-import { UserProfile, UserSettings } from '../pages';
+import { UserProfile, UserSettings, Bars, Pies, Lines } from '../pages';
 import * as menuTypes from './menuTypes';
 import { renderRoutes } from 'react-router-config';
 
@@ -19,15 +18,15 @@ const protectedRoutes = [
         name: 'Profile',
         path: '/profile',
         showInMenus: [menuTypes.main],
-        component: UserProfile,
+        component: UserProfile
       },
       {
         title: 'Settings',
         name: 'Settings',
         path: '/settings',
         showInMenus: [menuTypes.main],
-        component: UserSettings,
-      },
+        component: UserSettings
+      }
     ]
   },
   {
@@ -43,10 +42,24 @@ const protectedRoutes = [
         name: 'pie-chart',
         path: '/pie',
         showInMenus: [menuTypes.main],
-        component: Pie,
+        component: Pies
       },
+      {
+        title: 'Bar Chart',
+        name: 'bar-chart',
+        path: '/bar',
+        showInMenus: [menuTypes.main],
+        component: Bars
+      },
+      {
+        title: 'Line Chart',
+        name: 'line-chart',
+        path: '/line',
+        showInMenus: [menuTypes.main],
+        component: Lines
+      }
     ]
-  },
+  }
 ];
 
 export default createAbsoluteRoutes(protectedRoutes);
