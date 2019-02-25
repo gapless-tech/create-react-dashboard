@@ -1,10 +1,35 @@
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import Pie from '../components/graphs/ResponsivePie';
+import { UserProfile, UserSettings } from '../pages';
 import * as menuTypes from './menuTypes';
 import { renderRoutes } from 'react-router-config';
 
 const protectedRoutes = [
   // This is an example of nested route that will be represented as a nested menu as well
+  {
+    title: 'User',
+    name: 'User',
+    path: '/user',
+    icon: 'user',
+    showInMenus: [menuTypes.main],
+    component: ({ route: { routes } }) => renderRoutes(routes, { routes }),
+    routes: [
+      {
+        title: 'Profile',
+        name: 'Profile',
+        path: '/profile',
+        showInMenus: [menuTypes.main],
+        component: UserProfile,
+      },
+      {
+        title: 'Settings',
+        name: 'Settings',
+        path: '/settings',
+        showInMenus: [menuTypes.main],
+        component: UserSettings,
+      },
+    ]
+  },
   {
     title: 'Charts',
     name: 'charts',

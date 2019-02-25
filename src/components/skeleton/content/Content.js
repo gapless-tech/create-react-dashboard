@@ -9,7 +9,7 @@ const Content = ({ children }) => (
             <Breadcrumb.Item>Graphs</Breadcrumb.Item>
             <Breadcrumb.Item>Pie</Breadcrumb.Item>
         </Breadcrumb>
-        <div style={{ padding: 24, background: '#fff' }}>
+        <div style={{ padding: 16 }}>
             {children}
         </div>
     </AntContent>
