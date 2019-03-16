@@ -8,20 +8,11 @@
     "@nivo/pie": "^0.52.1",
     "@render-props/toggle": "^0.1.29",
     "antd": "^3.13.1",
-    "babel-loader": "8.0.4",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.11",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-config-prettier": "^4.0.0",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
-    "husky": "^1.3.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
-    "lint-staged": "^8.1.4",
-    "prettier": "^1.16.4",
+    "prop-types": "^15.7.2",
     "react": "^16.7.0",
     "react-app-rewired": "^2.0.3",
     "react-dom": "^16.7.0",
@@ -29,27 +20,22 @@
     "react-router": "^4.3.1",
     "react-router-config": "^4.4.0-beta.6",
     "react-router-dom": "^4.3.1",
-    "react-scripts": "2.1.3",
+    "react-scripts": "2.1.8",
     "url-join": "^4.0.0"
   },
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test",
-    "eject": "react-scripts eject",
     "precommit": "NODE_ENV=production lint-staged"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
   "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --single-quote --write",
+    "*.{js,jsx}": [
+      "pretty-quick --staged",
+      "eslint src/ --fix",
       "git add"
     ]
   },
@@ -58,5 +44,17 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.5",
+    "prettier": "^1.16.4",
+    "pretty-quick": "^1.10.0"
+  }
 }

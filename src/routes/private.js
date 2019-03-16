@@ -1,7 +1,7 @@
+import { renderRoutes } from 'react-router-config';
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import { UserProfile, UserSettings, Bars, Pies, Lines } from '../pages';
 import * as menuTypes from './menuTypes';
-import { renderRoutes } from 'react-router-config';
 
 const protectedRoutes = [
   // This is an example of nested route that will be represented as a nested menu as well

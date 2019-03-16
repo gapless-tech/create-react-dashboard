@@ -1,11 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class UserProfile extends Component {
-  render() {
-    return (
-      <div>
-        <button></button>
-      </div>
-    )
-  }
-}
+export default () => (
+  <div>
+    <button type="button">Click</button>
+  </div>
+);

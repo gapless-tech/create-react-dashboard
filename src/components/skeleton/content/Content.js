@@ -1,6 +1,7 @@
 import React from 'react';
 import { Layout, Breadcrumb } from 'antd';
 import { Link } from 'react-router-dom';
+import PropTypes from 'prop-types';
 
 const { Content: AntContent } = Layout;
 
@@ -20,5 +21,13 @@ const Content = ({ children, matchedRoutes }) => (
     <div style={{ padding: 16 }}>{children}</div>
   </AntContent>
 );
+
+Content.propTypes = {
+  children: PropTypes.oneOfType([
+    PropTypes.arrayOf(PropTypes.node),
+    PropTypes.node
+  ]).isRequired,
+  matchedRoutes: PropTypes.arrayOf(PropTypes.object).isRequired
+};
 
 export default Content;

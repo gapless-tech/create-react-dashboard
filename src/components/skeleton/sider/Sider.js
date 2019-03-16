@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { Layout, Menu, Icon } from 'antd';
 import { NavLink } from 'react-router-dom';
+import PropTypes from 'prop-types';
 import './Sider.css';
 
 const { Sider: AntSider } = Layout;
@@ -47,6 +48,12 @@ const Sider = ({ isCollapsed, mainMenuRoutes, matchedRoutes }) => {
       </Menu>
     </AntSider>
   );
+};
+
+Sider.propTypes = {
+  isCollapsed: PropTypes.bool.isRequired,
+  mainMenuRoutes: PropTypes.arrayOf(PropTypes.object).isRequired,
+  matchedRoutes: PropTypes.arrayOf(PropTypes.object).isRequired
 };
 
 export default Sider;
