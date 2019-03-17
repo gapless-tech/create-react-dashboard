@@ -1,4 +1,5 @@
 
+[![Build Status](https://travis-ci.com/gapless-tech/create-react-dashboard.svg?branch=master)](https://travis-ci.com/gapless-tech/create-react-dashboard)
 [![dependencies Status](https://david-dm.org/gapless-tech/create-react-dashboard/status.svg)](https://david-dm.org/gapless-tech/create-react-dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/gapless-tech/create-react-dashboard/badge)](https://www.codefactor.io/repository/github/gapless-tech/create-react-dashboard)
 
