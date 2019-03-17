@@ -1,0 +1,5 @@
+Pie example:
+
+```js
+<Pie />
+```
