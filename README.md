@@ -1,5 +1,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/gapless-tech/create-react-dashboard/badge)](https://www.codefactor.io/repository/github/gapless-tech/create-react-dashboard)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/9ea0b15c36886ea092c7/maintainability)](https://codeclimate.com/github/gapless-tech/create-react-dashboard/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/9ea0b15c36886ea092c7/test_coverage)](https://codeclimate.com/github/gapless-tech/create-react-dashboard/test_coverage)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
