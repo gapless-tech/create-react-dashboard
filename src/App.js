@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import { renderRoutes } from 'react-router-config';
 import { Switch, BrowserRouter } from 'react-router-dom';
+import { Provider } from 'react-redux';
 import getRoutes from './routes';
 import { configApi } from './api-service';
+import store from './store';
 
 class App extends Component {
   componentDidMount() {
@@ -11,9 +13,11 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
-        <Switch>{renderRoutes(getRoutes({ isLoggedUser: true }))}</Switch>
-      </BrowserRouter>
+      <Provider store={store}>
+        <BrowserRouter>
+          <Switch>{renderRoutes(getRoutes({ isLoggedUser: true }))}</Switch>
+        </BrowserRouter>
+      </Provider>
     );
   }
 }
