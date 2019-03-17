@@ -19,7 +19,7 @@ const withHelmet = Component => {
   routeComponent.propTypes = {
     route: PropTypes.shape({
       title: PropTypes.string.isRequired,
-      favicon: PropTypes.string.isRequired
+      favicon: PropTypes.string
     }).isRequired
   };
 
