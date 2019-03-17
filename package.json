@@ -32,13 +32,17 @@
   "scripts": {
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
-    "test": "react-app-rewired test",
+    "test": "react-app-rewired test --coverage --no-cache",
     "precommit": "NODE_ENV=production lint-staged",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
   },
   "lint-staged": {
     "*.{js,jsx}": [
@@ -54,7 +58,6 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
