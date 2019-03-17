@@ -1,0 +1,116 @@
+{
+  "structure": [
+    {
+      "isActive": true,
+      "version": "1.0",
+      "structure": {
+        "productFeatures": {
+          "items": [
+            {
+              "value": "string:description=Feature Value,required",
+              "key": "string:description=Feature Name,required"
+            }
+          ],
+          "@type": "array"
+        },
+        "tcsContent": "string:description=Terms & Conditions,required",
+        "productVersion": "string:description=Product Version,optional",
+        "productId": "string:optional",
+        "associatedAttributes": {
+          "productAttributes": {
+            "attributeMetaData": {
+              "items": [
+                {
+                  "category": "string:required",
+                  "subCategory": "string:required",
+                  "itemMap": {
+                    "items": [
+                      {
+                        "items": [
+                          {
+                            "activeYN": "string:required",
+                            "subCategory": "string:required",
+                            "defaultValue": "string:required",
+                            "dataType": "string:required",
+                            "isAllowedToOverRide": "string:required",
+                            "description": "string:required",
+                            "attributeName": "string:required",
+                            "value": "string:required",
+                            "isMandatory": "string:required"
+                          }
+                        ],
+                        "@type": "array"
+                      }
+                    ],
+                    "@type": "array"
+                  }
+                }
+              ],
+              "@type": "array"
+            }
+          }
+        },
+        "attributeForSubscription": {
+          "items": [
+            {
+              "annualIncome": {
+                "description": "string:description=Description,required",
+                "component": "string:description=Component Name,required",
+                "label": "string:description=Label,required",
+                "attributeloc": "string:description=Attribute Location,required",
+                "type": "string:description=Type,required",
+                "required": "string:description=Is Required,required"
+              },
+              "nationality": {
+                "description": "string:description=Description,required",
+                "component": "string:description=Component Name,required",
+                "label": "string:description=Label,required",
+                "attributeloc": "string:description=Attribute Location,required",
+                "type": "string:description=Type,required",
+                "required": "string:description=Is Required,required"
+              },
+              "dob": {
+                "description": "string:description=Description,required",
+                "component": "string:description=Component Name,required",
+                "label": "string:description=Label,required",
+                "attributeloc": "string:description=Attribute Location,required",
+                "type": "string:description=Type,required",
+                "required": "string:description=Is Required,required"
+              },
+              "mobileNumber": {
+                "description": "string:description=Description,required",
+                "component": "string:description=Component Name,required",
+                "label": "string:description=Label,required",
+                "attributeloc": "string:description=Attribute Location,required",
+                "type": "string:description=Type,required",
+                "required": "string:description=Is Required,required"
+              },
+              "email": {
+                "description": "string:description=Description,required",
+                "component": "string:description=Component Name,required",
+                "label": "string:description=Label,required",
+                "attributeloc": "string:description=Attribute Location,required",
+                "type": "string:description=Type,required",
+                "required": "string:description=Is Required,required"
+              }
+            }
+          ],
+          "@type": "array"
+        },
+        "shortName": "string:description=Product Short Name,required",
+        "productDescription": "string:description=Product Description,required",
+        "productName": "string:description=Product Name,required",
+        "productType": "string:description=Product Type,optional"
+      },
+      "createdOn": 1533489683261,
+      "modifiedOn": 1533489683261,
+      "versionId": "00e47b72-eef9-11e8-8eb2-f2801f1b9fd1",
+      "key": "global-ca-sa-product-schema",
+      "id": "global-ca-sa-product-schema",
+      "createdBy": null,
+      "name": "Global CA/SA Product Structure",
+      "modifiedBy": null,
+      "type": "Thing"
+    }
+  ]
+}

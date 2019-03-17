@@ -18,14 +18,11 @@ export default (defaultListName, reducers) => ({
     };
   },
 
-  writeById: (state, { id, ...data } = {}) => ({
+  writeById: (state, { id, data } = {}) => ({
     ...state,
     byId: {
       ...state.byId,
-      [id]: {
-        id,
-        ...data
-      }
+      [id]: data
     }
   }),
 

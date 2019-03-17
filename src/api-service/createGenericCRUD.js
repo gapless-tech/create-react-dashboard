@@ -7,7 +7,7 @@ export default resourceName => ({
     return response;
   },
   getById: async (id, params) => {
-    const response = await instance.get(`${resourceName}${id}`, { params });
+    const response = await instance.get(`${resourceName}/${id}`, { params });
 
     return response;
   },
@@ -17,12 +17,12 @@ export default resourceName => ({
     return response;
   },
   update: async (id, data) => {
-    const response = await instance.put(`${resourceName}${id}`, data);
+    const response = await instance.put(`${resourceName}/${id}`, data);
 
     return response;
   },
   delete: async id => {
-    const response = await instance.delete(`${resourceName}${id}`);
+    const response = await instance.delete(`${resourceName}/${id}`);
 
     return response;
   }

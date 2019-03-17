@@ -16,7 +16,7 @@ export default (
     async getByIdAsync({ id }) {
       const { data } = await api.getById(id);
 
-      ownDispatch.writeById({ data });
+      ownDispatch.writeById({ id, data });
     },
 
     async createAsync({ data, updateList, listName }) {
