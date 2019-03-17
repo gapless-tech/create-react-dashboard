@@ -14,6 +14,10 @@
     "axios": "^0.18.0",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.11",
+    "enzyme": "^3.9.0",
+    "enzyme-adapter-react-16": "^1.11.2",
+    "joi": "^14.3.1",
+    "joi-to-json-schema": "^4.0.1",
     "less": "^3.9.0",
     "less-loader": "^4.1.0",
     "lodash": "^4.17.11",
@@ -33,16 +37,13 @@
     "start": "react-app-rewired start",
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --coverage --no-cache",
+    "test:watch": "react-app-rewired test --watch --coverage --no-cache",
     "precommit": "NODE_ENV=production lint-staged",
     "styleguide": "styleguidist server",
     "styleguide:build": "styleguidist build"
   },
   "eslintConfig": {
     "extends": "react-app"
-  },
-  "jest": {
-    "coverageDirectory": "./coverage/",
-    "collectCoverage": true
   },
   "lint-staged": {
     "*.{js,jsx}": [
@@ -57,6 +58,10 @@
     "not ie <= 11",
     "not op_mini all"
   ],
+  "jest": {
+    "coverageDirectory": "./coverage/",
+    "collectCoverage": true
+  },
   "devDependencies": {
     "eslint-config-prettier": "^4.1.0",
     "eslint-plugin-import": "^2.16.0",
