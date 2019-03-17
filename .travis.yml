@@ -2,7 +2,7 @@ language: node_js
 node_js: 8
 addons:
   code_climate:
-    repo_token: CODE_CLIMATE_TOKEN
+    repo_token: 1f5941780c859a4b098e86f40ea101d843285345704428bc97b1c2ffc5fa8be5
 script: npm test
 before_script:
   - npm install
