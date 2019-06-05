@@ -6868,10 +6868,10 @@ jest@23.6.0:
     import-local "^1.0.0"
     jest-cli "^23.6.0"
 
-joi-to-json-schema@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/joi-to-json-schema/-/joi-to-json-schema-4.0.1.tgz#bb6aee73a4e9f0f4ce143a408ab524c204d529aa"
-  integrity sha512-MYJ+gqucm9ZhI6x8FHNYTCY4M6ROlbtFeibjVk+SnPXxbirFc+TdcelXKcjbKfdIvzVkT6kVxQuRK22tQLa6lQ==
+joi-to-json-schema@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/joi-to-json-schema/-/joi-to-json-schema-5.0.0.tgz#f7157593f7d2ef7b97b23c5c06320daf88c19ff6"
+  integrity sha512-3XIo2xLp7CdgWfmWC82cSByZSv7a1GS6nPZDc2CfOaHKcvG+75BXoH9+TFxVnxd8wt4QtRGsxupVMLAw9TleGw==
 
 joi@^11.1.1:
   version "11.4.0"
