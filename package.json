@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@nivo/bar": "^0.52.1",
-    "@nivo/line": "^0.52.1",
+    "@nivo/line": "^0.53.1",
     "@nivo/pie": "^0.52.1",
     "@rematch/core": "^1.1.0",
     "@rematch/loading": "^0.5.1",
