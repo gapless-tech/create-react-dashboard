@@ -3447,10 +3447,10 @@ cssstyle@^1.0.0:
   dependencies:
     cssom "0.3.x"
 
-customize-cra@^0.2.11:
-  version "0.2.11"
-  resolved "https://registry.yarnpkg.com/customize-cra/-/customize-cra-0.2.11.tgz#eda1cad4e16c958c577fa43c9776ea372e82671d"
-  integrity sha512-Mcmvnzs8hD3PgPzyuBHivcmdRL+HIC5dA46ACZXiK7jBr0dygAVv8CDNBdJBupdWZ2rhSo0oSPYclyNeoF2euA==
+customize-cra@^0.2.13:
+  version "0.2.13"
+  resolved "https://registry.yarnpkg.com/customize-cra/-/customize-cra-0.2.13.tgz#d49e493ce7e9f4d8a2a1ae57e2f50f71e7815f60"
+  integrity sha512-Ot1HAM0ee7IDQBP222vJ8fDslshDGTtYFF4IGeLSd6QTL+3A7ZRy9KRbbwLsL+/zPKzQZ0Femlykn5Qjb18jMw==
   dependencies:
     lodash.flow "^3.5.0"
 
