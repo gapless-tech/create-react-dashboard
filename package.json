@@ -72,6 +72,6 @@
     "lint-staged": "^8.2.1",
     "prettier": "^1.16.4",
     "pretty-quick": "^1.10.0",
-    "react-styleguidist": "^9.0.4"
+    "react-styleguidist": "^9.1.11"
   }
 }
