@@ -10,7 +10,7 @@
     "@rematch/loading": "^0.5.1",
     "@rematch/select": "^2.0.4",
     "@render-props/toggle": "^0.1.29",
-    "antd": "^3.13.1",
+    "antd": "^3.20.3",
     "axios": "^0.18.0",
     "babel-plugin-import": "^1.11.0",
     "customize-cra": "^0.2.11",
