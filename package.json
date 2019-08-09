@@ -22,7 +22,7 @@
     "less-loader": "^4.1.0",
     "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
-    "react": "^16.7.0",
+    "react": "^16.9.0",
     "react-app-rewired": "^2.0.3",
     "react-dom": "^16.7.0",
     "react-helmet": "^5.2.0",
