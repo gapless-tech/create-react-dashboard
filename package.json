@@ -8,7 +8,7 @@
     "@nivo/pie": "^0.52.1",
     "@rematch/core": "^1.1.0",
     "@rematch/loading": "^0.5.1",
-    "@rematch/select": "^2.0.4",
+    "@rematch/select": "^2.0.5",
     "@render-props/toggle": "^0.1.29",
     "antd": "^3.13.1",
     "axios": "^0.18.0",

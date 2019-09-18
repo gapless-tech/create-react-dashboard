@@ -994,12 +994,12 @@
   resolved "https://registry.yarnpkg.com/@rematch/loading/-/loading-0.5.1.tgz#7272b55c1e3a91a2eb562c561da10da8d65409b9"
   integrity sha512-JxIYIrdV8AVxaTrx4g5Gfc+71SU5/9zCliMSAGCKQtnYFW7G4UX9UgOCgpUlJGgiU81VPLDAHviQou8gXjGlfg==
 
-"@rematch/select@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@rematch/select/-/select-2.0.4.tgz#6e21c795e289f1a5c9ce6b5141b53e27953b40ad"
-  integrity sha512-YB/AWsA5KRyR877dJvMzq2o4clbsAPgUnwITAunlmGtYoyUDjRcIxpT33ntBhnub8iNVSz9Bk+Bd1hm7nw/vGA==
+"@rematch/select@^2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@rematch/select/-/select-2.0.5.tgz#dba1f64c2d8a53a5fa17996b7c094ffc252f0d2e"
+  integrity sha512-BRfYoim6aEawI3/JIyRnC5j0brygZtj1B6qPeOiVo2gH/tPIaaoKFEQ+uCi6wf2D0ZnPS1ntUdflmDFWouAxCQ==
   dependencies:
-    reselect "^3.0.1"
+    reselect "^4.0.0"
 
 "@render-props/toggle@^0.1.29":
   version "0.1.29"
@@ -10979,10 +10979,10 @@ requires-port@^1.0.0:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha1-kl0mAdOaxIXgkc8NpcbmlNw9yv8=
 
-reselect@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/reselect/-/reselect-3.0.1.tgz#efdaa98ea7451324d092b2b2163a6a1d7a9a2147"
-  integrity sha1-79qpjqdFEyTQkrKyFjpqHXqaIUc=
+reselect@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/reselect/-/reselect-4.0.0.tgz#f2529830e5d3d0e021408b246a206ef4ea4437f7"
+  integrity sha512-qUgANli03jjAyGlnbYVAV5vvnOmJnODyABz51RdBN7M4WaVu8mecZWgyQNkG8Yqe3KRGRt0l4K4B3XVEULC4CA==
 
 resize-observer-polyfill@^1.5.0:
   version "1.5.1"
