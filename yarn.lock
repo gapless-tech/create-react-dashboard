@@ -989,10 +989,10 @@
   dependencies:
     redux "^4.0.1"
 
-"@rematch/loading@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/@rematch/loading/-/loading-0.5.1.tgz#7272b55c1e3a91a2eb562c561da10da8d65409b9"
-  integrity sha512-JxIYIrdV8AVxaTrx4g5Gfc+71SU5/9zCliMSAGCKQtnYFW7G4UX9UgOCgpUlJGgiU81VPLDAHviQou8gXjGlfg==
+"@rematch/loading@^1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@rematch/loading/-/loading-1.2.0.tgz#e8e299fa29bf830677d99dd94d4678c534e723e6"
+  integrity sha512-WSlGrlwBxULbmg+uoxG4npRTeJ+Y5jEGOEykaZZffM9UEqmbXDFTC45WetKA0nNvUY0Po0YTl7pYAbDvT6VWVg==
 
 "@rematch/select@^2.0.4":
   version "2.0.4"
