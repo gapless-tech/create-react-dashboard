@@ -4,7 +4,7 @@ import { Helmet } from 'react-helmet';
 
 const withHelmet = Component => {
   const routeComponent = ({ route, ...props }) => (
-    <Fragment>
+    <>
       <Helmet>
         <link
           rel="shortcut icon"
@@ -13,7 +13,7 @@ const withHelmet = Component => {
         <title>{route.title}</title>
       </Helmet>
       <Component {...props} route={route} />
-    </Fragment>
+    </>
   );
 
   routeComponent.propTypes = {
