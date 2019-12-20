@@ -6,9 +6,9 @@ class Security extends Component {
     {
       title: "Account Password",
       description: (
-        <Fragment>
+        <>
           Current Password Strength: <span style={{color:'green'}}>Strong</span>
-        </Fragment>
+        </>
       ),
       actions: [
         <span>Modify</span>,
@@ -40,7 +40,7 @@ class Security extends Component {
 
   render() {
     return (
-      <Fragment>
+      <>
         <h2>Security</h2>
         <List
           itemLayout="horizontal"
@@ -51,7 +51,7 @@ class Security extends Component {
             </List.Item>
           )}
         />
-      </Fragment>
+      </>
     );
   }
 }
