@@ -16,7 +16,7 @@
     "customize-cra": "^0.9.1",
     "joi": "^14.3.1",
     "joi-to-json-schema": "^5.1.0",
-    "less": "^3.10.3",
+    "less": "^3.11.0",
     "less-loader": "^5.0.0",
     "lodash": "^4.17.15",
     "prop-types": "^15.7.2",
