@@ -43,7 +43,7 @@
     "lint-staged": "^10.0.7",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
-    "react-styleguidist": "^10.6.1"
+    "react-styleguidist": "^10.6.2"
   },
   "scripts": {
     "start": "react-app-rewired start",
