@@ -12,13 +12,13 @@ export default () => {
     <Card bodyStyle={{ paddingLeft: 0 }}>
       <Tabs defaultActiveKey="1" tabPosition="left">
         <TabPane tab="Basic Configurations" key="1">
-          {<BasicConfigs />}
+          <BasicConfigs />
         </TabPane>
         <TabPane tab="Security" key="3">
-          {<Security />}
+          <Security />
         </TabPane>
         <TabPane tab="Notifications" key="4">
-          {<Notifications />}
+          <Notifications />
         </TabPane>
       </Tabs>
     </Card>
