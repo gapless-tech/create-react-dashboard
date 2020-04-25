@@ -1,5 +1,6 @@
 import React, { Fragment } from 'react';
-import { Layout, Menu, Icon } from 'antd';
+import { Icon as LegacyIcon } from '@ant-design/compatible';
+import { Layout, Menu } from 'antd';
 import { NavLink } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import './Sider.css';
@@ -22,7 +23,7 @@ const Sider = ({ isCollapsed, mainMenuRoutes, matchedRoutes }) => {
         {mainMenuRoutes.map(({ name, title, icon, path, routes }) => {
           const Title = (
             <Fragment>
-              {icon && <Icon type={icon} title={title} />}
+              {icon && <LegacyIcon type={icon} title={title} />}
               <span>{title}</span>
             </Fragment>
           );

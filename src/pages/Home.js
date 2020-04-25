@@ -1,14 +1,6 @@
 import React from 'react';
-import {
-  Statistic,
-  Card,
-  Row,
-  Col,
-  Icon,
-  Avatar,
-  Button,
-  Calendar
-} from 'antd';
+import { ArrowUpOutlined, EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import { Statistic, Card, Row, Col, Avatar, Button, Calendar } from 'antd';
 
 const { Meta } = Card;
 
@@ -24,9 +16,9 @@ export default () => (
             />
           }
           actions={[
-            <Icon type="setting" />,
-            <Icon type="edit" />,
-            <Icon type="ellipsis" />
+            <SettingOutlined />,
+            <EditOutlined />,
+            <EllipsisOutlined />
           ]}
         >
           <Meta
@@ -48,7 +40,7 @@ export default () => (
             value={11.28}
             precision={2}
             valueStyle={{ color: '#3f8600' }}
-            prefix={<Icon type="arrow-up" />}
+            prefix={<ArrowUpOutlined />}
             suffix="%"
           />
         </Card>

@@ -1,15 +1,7 @@
-import {
-  Form,
-  Input,
-  Radio,
-  Avatar,
-  Upload,
-  Icon,
-  Select,
-  Row,
-  Col,
-  Button
-} from 'antd';
+import { UploadOutlined } from '@ant-design/icons';
+import { Form } from '@ant-design/compatible';
+import '@ant-design/compatible/assets/index.css';
+import { Input, Radio, Avatar, Upload, Select, Row, Col, Button } from 'antd';
 import React from 'react';
 
 const { Option } = Select;
@@ -65,7 +57,7 @@ const BasicConfigs = Form.create({ name: 'form_in_modal' })(
         <Row style={{ marginTop: 15 }}>
           <Upload>
             <Button>
-              <Icon type="upload" /> Change picture
+              <UploadOutlined /> Change picture
             </Button>
           </Upload>
         </Row>

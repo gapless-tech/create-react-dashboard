@@ -1,5 +1,7 @@
 import React from 'react';
-import { Layout, Menu, Icon, Avatar, Dropdown } from 'antd';
+import { Icon as LegacyIcon } from '@ant-design/compatible';
+import { UserOutlined } from '@ant-design/icons';
+import { Layout, Menu, Avatar, Dropdown } from 'antd';
 import PropTypes from 'prop-types';
 import './Header.css';
 
@@ -21,13 +23,13 @@ const avatarMenu = (
 
 const Header = ({ isSiderCollapsed, onToggleSider }) => (
   <AntHeader style={{ background: '#fff', padding: 0 }}>
-    <Icon
+    <LegacyIcon
       className="trigger"
       type={isSiderCollapsed ? 'menu-unfold' : 'menu-fold'}
       onClick={onToggleSider}
     />
     <Dropdown overlay={avatarMenu} trigger={['click']}>
-      <Avatar size="large" shape="square" className="avatar" icon="user" />
+      <Avatar size="large" shape="square" className="avatar" icon={<UserOutlined />} />
     </Dropdown>
   </AntHeader>
 );
