@@ -22,10 +22,10 @@ const Sider = ({ isCollapsed, mainMenuRoutes, matchedRoutes }) => {
       >
         {mainMenuRoutes.map(({ name, title, icon, path, routes }) => {
           const Title = (
-            <Fragment>
+            <>
               {icon && <LegacyIcon type={icon} title={title} />}
               <span>{title}</span>
-            </Fragment>
+            </>
           );
 
           if (routes) {
