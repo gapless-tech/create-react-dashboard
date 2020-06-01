@@ -7,7 +7,7 @@
     "@ant-design/icons": "^4.0.6",
     "@nivo/bar": "^0.61.1",
     "@nivo/line": "^0.61.1",
-    "@nivo/pie": "^0.61.1",
+    "@nivo/pie": "^0.62.0",
     "@rematch/core": "^1.4.0",
     "@rematch/loading": "^1.2.1",
     "@rematch/select": "^2.0.5",
