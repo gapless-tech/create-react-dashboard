@@ -1,6 +1,6 @@
 import { createAbsoluteRoutes } from './helper/absoluteRouteConverter';
 import * as menuTypes from './menuTypes';
-import { Home, Structure } from '../pages';
+import { Home } from '../pages';
 
 const publicRoutes = [
   {
@@ -11,12 +11,6 @@ const publicRoutes = [
     component: Home,
     showInMenus: [menuTypes.main]
   },
-  {
-    name: 'structure',
-    title: 'Structure',
-    path: '/structure/:id',
-    component: Structure
-  }
 ];
 
 export default createAbsoluteRoutes(publicRoutes);

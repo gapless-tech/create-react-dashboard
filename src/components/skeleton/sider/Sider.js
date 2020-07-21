@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { Icon as LegacyIcon } from '@ant-design/compatible';
 import { Layout, Menu } from 'antd';
 import { NavLink } from 'react-router-dom';

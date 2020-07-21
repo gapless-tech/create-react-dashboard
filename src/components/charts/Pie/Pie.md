@@ -1,5 +1,0 @@
-Pie example:
-
-```js
-<Pie />
-```

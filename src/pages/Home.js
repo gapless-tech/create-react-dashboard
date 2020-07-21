@@ -63,21 +63,5 @@ export default () => (
         </Card>
       </Col>
     </Row>
-    <Row gutter={12}>
-      <div style={{ background: '#ECECEC' }}>
-        <Col span={6}>
-          <Card title="Card title">Card content</Card>
-        </Col>
-        <Col span={6}>
-          <Card title="Card title">Card content</Card>
-        </Col>
-        <Col span={6}>
-          <Card title="Card title">Card content</Card>
-        </Col>
-        <Col span={6}>
-          <Card title="Card title">Card content</Card>
-        </Col>
-      </div>
-    </Row>
   </>
 );
