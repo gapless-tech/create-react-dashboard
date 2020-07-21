@@ -2,8 +2,8 @@ import React from 'react';
 import { Layout as AntLayout } from 'antd';
 import Toggle from '@render-props/toggle';
 import { renderRoutes, matchRoutes } from 'react-router-config';
-import { Footer, Sider, Header, Content } from '..';
 import PropTypes from 'prop-types';
+import { Footer, Sider, Header, Content } from '..';
 import * as menuTypes from '../../../routes/menuTypes';
 
 const Layout = ({ route, location }) => {
