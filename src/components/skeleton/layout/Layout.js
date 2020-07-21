@@ -14,7 +14,7 @@ const Layout = ({ route, location }) => {
   const matchedRoutes = matchRoutes(routes, pathname);
 
   // In the future this info will come from .env
-  const footer = 'Ant Design ©2018 Gapless-Tech';
+  const footer = 'Ant Design ©2020 Gapless-Tech';
 
   return (
     <Toggle initialValue={false}>
