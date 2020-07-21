@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { Switch, List } from 'antd';
 
 class NotificationView extends Component {
@@ -26,7 +26,7 @@ class NotificationView extends Component {
 
   render() {
     return (
-      <Fragment>
+      <>
         <h2>Notifications</h2>
         <List
           itemLayout="horizontal"
@@ -37,7 +37,7 @@ class NotificationView extends Component {
             </List.Item>
           )}
         />
-      </Fragment>
+      </>
     );
   }
 }
