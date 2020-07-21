@@ -1,8 +1,7 @@
 
-[![Build Status](https://travis-ci.com/gapless-tech/create-react-dashboard.svg?branch=master)](https://travis-ci.com/gapless-tech/create-react-dashboard)
+![Node.js CI](https://github.com/gapless-tech/create-react-dashboard/workflows/Node.js%20CI/badge.svg?branch=master)
 [![dependencies Status](https://david-dm.org/gapless-tech/create-react-dashboard/status.svg)](https://david-dm.org/gapless-tech/create-react-dashboard)
 [![CodeFactor](https://www.codefactor.io/repository/github/gapless-tech/create-react-dashboard/badge)](https://www.codefactor.io/repository/github/gapless-tech/create-react-dashboard)
-
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/9ea0b15c36886ea092c7/maintainability)](https://codeclimate.com/github/gapless-tech/create-react-dashboard/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/9ea0b15c36886ea092c7/test_coverage)](https://codeclimate.com/github/gapless-tech/create-react-dashboard/test_coverage)
