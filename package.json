@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ant-design/compatible": "^1.0.4",
+    "@ant-design/compatible": "^1.0.5",
     "@ant-design/icons": "^4.2.1",
     "@nivo/bar": "^0.62.0",
     "@nivo/line": "^0.62.0",
