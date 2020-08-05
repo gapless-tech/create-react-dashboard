@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@ant-design/compatible": "^1.0.4",
-    "@ant-design/icons": "^4.2.1",
+    "@ant-design/icons": "^4.2.2",
     "@nivo/bar": "^0.62.0",
     "@nivo/line": "^0.62.0",
     "@nivo/pie": "^0.62.0",
