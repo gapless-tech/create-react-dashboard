@@ -2,12 +2,15 @@
   "extends": ["react-app", "airbnb", "prettier", "prettier/react"],
   "plugins": ["prettier"],
   "rules": {
-    "react/jsx-filename-extension": [
-      1,
-      {
-        "extensions": [".js", ".jsx"]
-      }
-    ]
+    "prettier/prettier": "error",
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "import/prefer-default-export": "off"
   },
-  "parser": "babel-eslint"
+  "parser": "babel-eslint",
+  "settings": {
+    "import/extensions": [
+      ".js",
+      ".jsx"
+    ]
+  }
 }
