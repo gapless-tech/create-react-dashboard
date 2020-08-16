@@ -9,7 +9,7 @@ const publicRoutes = [
     icon: 'home',
     path: '/',
     component: Home,
-    showInMenus: [menuTypes.main]
+    showInMenus: [menuTypes.main],
   },
 ];
 

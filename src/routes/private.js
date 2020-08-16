@@ -17,9 +17,9 @@ const protectedRoutes = [
         name: 'Settings',
         path: '/settings',
         showInMenus: [menuTypes.main],
-        component: UserSettings
-      }
-    ]
+        component: UserSettings,
+      },
+    ],
   },
 ];
 

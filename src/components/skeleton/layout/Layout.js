@@ -38,11 +38,11 @@ const Layout = ({ route, location }) => {
 
 Layout.propTypes = {
   route: PropTypes.shape({
-    routes: PropTypes.array
+    routes: PropTypes.array,
   }).isRequired,
   location: PropTypes.shape({
-    pathname: PropTypes.string
-  }).isRequired
+    pathname: PropTypes.string,
+  }).isRequired,
 };
 
 export default Layout;

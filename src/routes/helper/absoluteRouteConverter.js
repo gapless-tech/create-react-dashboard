@@ -19,7 +19,7 @@ export const createAbsoluteRoute = (
     routes: routes && createAbsoluteRoutes(routes, newAbsolutePath),
     component: withHelmet(component),
     isRoot: !path,
-    showInMenus
+    showInMenus,
   };
 };
 

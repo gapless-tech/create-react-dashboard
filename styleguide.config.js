@@ -4,6 +4,6 @@ module.exports = {
     '**/*.test.{js,jsx,ts,tsx}',
     '**/*.spec.{js,jsx,ts,tsx}',
     '**/*.d.ts',
-    '**/index.js'
-  ]
+    '**/index.js',
+  ],
 };
