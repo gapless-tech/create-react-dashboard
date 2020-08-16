@@ -1,6 +1,8 @@
 eslint:
   enabled: true
+  channel: "eslint-6"
   config:
+    config: .eslintrc
     extensions:
     - .js
     - .jsx
