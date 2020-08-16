@@ -9,7 +9,7 @@ const Footer = ({ footer }) => (
 );
 
 Footer.propTypes = {
-  footer: PropTypes.string.isRequired
+  footer: PropTypes.string.isRequired,
 };
 
 export default Footer;

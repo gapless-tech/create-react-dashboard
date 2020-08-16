@@ -9,7 +9,7 @@ const { Sider: AntSider } = Layout;
 const { SubMenu, Item } = Menu;
 
 const Sider = ({ isCollapsed, mainMenuRoutes, matchedRoutes }) => {
-  const activeKeys = matchedRoutes.map(item => item.route.name);
+  const activeKeys = matchedRoutes.map((item) => item.route.name);
 
   return (
     <AntSider trigger={null} collapsible collapsed={isCollapsed}>
@@ -31,7 +31,7 @@ const Sider = ({ isCollapsed, mainMenuRoutes, matchedRoutes }) => {
           if (routes) {
             return (
               <SubMenu key={name} title={Title}>
-                {routes.map(subRoutes => (
+                {routes.map((subRoutes) => (
                   <Item key={subRoutes.name}>
                     <NavLink to={subRoutes.path}>{subRoutes.title}</NavLink>
                   </Item>
@@ -54,7 +54,7 @@ const Sider = ({ isCollapsed, mainMenuRoutes, matchedRoutes }) => {
 Sider.propTypes = {
   isCollapsed: PropTypes.bool.isRequired,
   mainMenuRoutes: PropTypes.arrayOf(PropTypes.object).isRequired,
-  matchedRoutes: PropTypes.arrayOf(PropTypes.object).isRequired
+  matchedRoutes: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Sider;

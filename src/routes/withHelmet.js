@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 
-const withHelmet = Component => {
+const withHelmet = (Component) => {
   const routeComponent = ({ route, ...props }) => (
     <>
       <Helmet>
@@ -19,8 +19,8 @@ const withHelmet = Component => {
   routeComponent.propTypes = {
     route: PropTypes.shape({
       title: PropTypes.string.isRequired,
-      favicon: PropTypes.string
-    }).isRequired
+      favicon: PropTypes.string,
+    }).isRequired,
   };
 
   return routeComponent;

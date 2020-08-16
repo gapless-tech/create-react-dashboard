@@ -25,9 +25,9 @@ const Content = ({ children, matchedRoutes }) => (
 Content.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node
+    PropTypes.node,
   ]).isRequired,
-  matchedRoutes: PropTypes.arrayOf(PropTypes.object).isRequired
+  matchedRoutes: PropTypes.arrayOf(PropTypes.object).isRequired,
 };
 
 export default Content;

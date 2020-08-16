@@ -14,7 +14,7 @@ const BasicConfigs = Form.create({ name: 'form_in_modal' })(
         <Form layout="vertical">
           <Form.Item label="Email">
             {getFieldDecorator('email', {
-              rules: [{ required: true, message: 'Please input your email.' }]
+              rules: [{ required: true, message: 'Please input your email.' }],
             })(<Input />)}
           </Form.Item>
           <Form.Item label="Name">
@@ -34,7 +34,7 @@ const BasicConfigs = Form.create({ name: 'form_in_modal' })(
           </Form.Item>
           <Form.Item label="Profile Type">
             {getFieldDecorator('modifier', {
-              initialValue: 'public'
+              initialValue: 'public',
             })(
               <Radio.Group>
                 <Radio value="public">Public</Radio>

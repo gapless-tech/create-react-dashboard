@@ -29,14 +29,19 @@ const Header = ({ isSiderCollapsed, onToggleSider }) => (
       onClick={onToggleSider}
     />
     <Dropdown overlay={avatarMenu} trigger={['click']}>
-      <Avatar size="large" shape="square" className="avatar" icon={<UserOutlined />} />
+      <Avatar
+        size="large"
+        shape="square"
+        className="avatar"
+        icon={<UserOutlined />}
+      />
     </Dropdown>
   </AntHeader>
 );
 
 Header.propTypes = {
   isSiderCollapsed: PropTypes.bool.isRequired,
-  onToggleSider: PropTypes.func.isRequired
+  onToggleSider: PropTypes.func.isRequired,
 };
 
 export default Header;

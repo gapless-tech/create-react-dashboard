@@ -5,15 +5,16 @@ class NotificationView extends Component {
   getData = () => {
     const Action = (
       <Switch
-        checkedChildren='Active'
-        unCheckedChildren='Inactive'
+        checkedChildren="Active"
+        unCheckedChildren="Inactive"
         defaultChecked
       />
     );
     return [
       {
         title: 'System Messages',
-        description: 'You will be notified by the system whenever an action is triggered',
+        description:
+          'You will be notified by the system whenever an action is triggered',
         actions: [Action],
       },
       {
@@ -31,9 +32,12 @@ class NotificationView extends Component {
         <List
           itemLayout="horizontal"
           dataSource={this.getData()}
-          renderItem={notification => (
+          renderItem={(notification) => (
             <List.Item actions={notification.actions}>
-              <List.Item.Meta title={notification.title} description={notification.description} />
+              <List.Item.Meta
+                title={notification.title}
+                description={notification.description}
+              />
             </List.Item>
           )}
         />

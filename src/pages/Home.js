@@ -1,5 +1,10 @@
 import React from 'react';
-import { ArrowUpOutlined, EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import {
+  ArrowUpOutlined,
+  EditOutlined,
+  EllipsisOutlined,
+  SettingOutlined,
+} from '@ant-design/icons';
 import { Statistic, Card, Row, Col, Avatar, Button, Calendar } from 'antd';
 
 const { Meta } = Card;
@@ -18,7 +23,7 @@ export default () => (
           actions={[
             <SettingOutlined />,
             <EditOutlined />,
-            <EllipsisOutlined />
+            <EllipsisOutlined />,
           ]}
         >
           <Meta
