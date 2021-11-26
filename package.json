@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@ant-design/compatible": "^1.0.5",
+    "@ant-design/compatible": "^1.1.0",
     "@ant-design/icons": "^4.2.2",
     "@render-props/toggle": "^0.1.30",
     "antd": "^4.5.4",
