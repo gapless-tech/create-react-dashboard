@@ -3,10 +3,12 @@ import { renderRoutes } from 'react-router-config';
 import { Switch, BrowserRouter } from 'react-router-dom';
 import getRoutes from './routes';
 
-const App = () => (
-  <BrowserRouter>
-    <Switch>{renderRoutes(getRoutes({ isLoggedUser: true }))}</Switch>
-  </BrowserRouter>
-);
+const App = function () {
+  return (
+    <BrowserRouter>
+      <Switch>{renderRoutes(getRoutes({ isLoggedUser: true }))}</Switch>
+    </BrowserRouter>
+  );
+};
 
 export default App;
