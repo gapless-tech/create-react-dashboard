@@ -21,23 +21,25 @@ const avatarMenu = (
   </Menu>
 );
 
-const Header = ({ isSiderCollapsed, onToggleSider }) => (
-  <AntHeader style={{ background: '#fff', padding: 0 }}>
-    <LegacyIcon
-      className="trigger"
-      type={isSiderCollapsed ? 'menu-unfold' : 'menu-fold'}
-      onClick={onToggleSider}
-    />
-    <Dropdown overlay={avatarMenu} trigger={['click']}>
-      <Avatar
-        size="large"
-        shape="square"
-        className="avatar"
-        icon={<UserOutlined />}
+const Header = function ({ isSiderCollapsed, onToggleSider }) {
+  return (
+    <AntHeader style={{ background: '#fff', padding: 0 }}>
+      <LegacyIcon
+        className="trigger"
+        type={isSiderCollapsed ? 'menu-unfold' : 'menu-fold'}
+        onClick={onToggleSider}
       />
-    </Dropdown>
-  </AntHeader>
-);
+      <Dropdown overlay={avatarMenu} trigger={['click']}>
+        <Avatar
+          size="large"
+          shape="square"
+          className="avatar"
+          icon={<UserOutlined />}
+        />
+      </Dropdown>
+    </AntHeader>
+  );
+};
 
 Header.propTypes = {
   isSiderCollapsed: PropTypes.bool.isRequired,
