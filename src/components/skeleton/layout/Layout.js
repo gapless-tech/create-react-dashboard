@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import { Footer, Sider, Header, Content } from '..';
 import * as menuTypes from '../../../routes/menuTypes';
 
-const Layout = ({ route, location }) => {
+const Layout = function ({ route, location }) {
   const { routes } = route;
   const { pathname } = location;
   const children = renderRoutes(routes);

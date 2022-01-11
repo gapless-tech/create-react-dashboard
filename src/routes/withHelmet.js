@@ -6,10 +6,7 @@ const withHelmet = (Component) => {
   const routeComponent = ({ route, ...props }) => (
     <>
       <Helmet>
-        <link
-          rel="shortcut icon"
-          href={route.title || 'favicons/favicon-32x32.png'}
-        />
+        <link rel="icon" href={route.title || 'favicons/favicon-32x32.png'} />
         <title>{route.title}</title>
       </Helmet>
       <Component {...props} route={route} />
