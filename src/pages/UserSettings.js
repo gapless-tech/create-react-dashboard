@@ -7,7 +7,7 @@ import Security from './user-configs/Security';
 
 const { TabPane } = Tabs;
 
-export default () => {
+export default function () {
   return (
     <Card bodyStyle={{ paddingLeft: 0 }}>
       <Tabs defaultActiveKey="1" tabPosition="left">
@@ -23,4 +23,4 @@ export default () => {
       </Tabs>
     </Card>
   );
-};
+}

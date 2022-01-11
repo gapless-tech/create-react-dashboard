@@ -9,8 +9,8 @@ import { Statistic, Card, Row, Col, Avatar, Button, Calendar } from 'antd';
 
 const { Meta } = Card;
 
-export default () => (
-  <>
+export default function () {
+  return (
     <Row gutter={16} style={{ marginBottom: 20 }}>
       <Col span={4}>
         <Card
@@ -68,5 +68,5 @@ export default () => (
         </Card>
       </Col>
     </Row>
-  </>
-);
+  );
+}

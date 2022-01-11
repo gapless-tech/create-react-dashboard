@@ -8,7 +8,7 @@ import './Sider.css';
 const { Sider: AntSider } = Layout;
 const { SubMenu, Item } = Menu;
 
-const Sider = ({ isCollapsed, mainMenuRoutes, matchedRoutes }) => {
+const Sider = function ({ isCollapsed, mainMenuRoutes, matchedRoutes }) {
   const activeKeys = matchedRoutes.map((item) => item.route.name);
 
   return (
